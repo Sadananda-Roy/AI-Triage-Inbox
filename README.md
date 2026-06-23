@@ -132,7 +132,8 @@ Lighthouse scores (desktop):
 | Accessibility  | _94_  |
 | SEO            | _100_ |
 
-_See `/docs/screenshots/Lighthouse Summary.png/` for screenshots._
+_See `/docs/screenshots/Lighthouse Screenshot.png/` for screenshot._
+
 _See `/docs/Lighthouse Summary.pdf/` for the summary._
 
 **What was optimised:**
