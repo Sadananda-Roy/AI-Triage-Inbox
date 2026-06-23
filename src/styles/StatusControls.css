@@ -1,0 +1,18 @@
+.status-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  .status-select,
+  .priority-select {
+    border-radius: 1em;
+    padding: 0 1em;
+    border: none;
+  }
+  .status-select.ant-select-outlined:focus,
+  .priority-select.ant-select-outlined:focus {
+    /* box-shadow: 0 0 0 3px rgba(22, 119, 255, 0.25); */
+    outline: 2px solid #1677ff;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}

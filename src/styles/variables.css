@@ -1,0 +1,86 @@
+:root {
+  /* ===== BRAND ===== */
+
+  --color-primary: #1976d2;
+  --color-primary-light: #42a5f5;
+  --color-primary-dark: #1565c0;
+
+  /* ===== BACKGROUNDS ===== */
+
+  --color-background: #ececec;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f8fafc;
+
+  /* ===== TEXT ===== */
+
+  --color-text-primary: #1f2937;
+  --color-text-secondary: #6b7280;
+  --color-text-disabled: #9ca3af;
+
+  /* ===== BORDERS ===== */
+
+  --color-border: #e5e7eb;
+  --color-divider: #eef2f7;
+
+  /* ===== SUCCESS ===== */
+
+  --color-success: #2e7d32;
+  --color-success-bg: #e8f5e9;
+
+  /* ===== WARNING ===== */
+
+  --color-warning: #ed6c02;
+  --color-warning-bg: #fff3e0;
+
+  /* ===== ERROR ===== */
+
+  --color-danger: #d32f2f;
+  --color-danger-bg: #ffebee;
+
+  /* ===== INFO ===== */
+
+  --color-info: #0288d1;
+  --color-info-bg: #e1f5fe;
+
+  /* ===== STATUS ===== */
+
+  --status-new: #1565c0;
+  --status-new-bg: #dbeafe;
+
+  --status-progress: #b45309;
+  --status-progress-bg: #fed7aa;
+
+  --status-done: #166534;
+  --status-done-bg: #bbf7d0;
+
+  /* ===== PRIORITY ===== */
+
+  --priority-p1: #b91c1c;
+  --priority-p1-bg: #fecaca;
+
+  --priority-p2: #c2410c;
+  --priority-p2-bg: #fed7aa;
+
+  --priority-p3: #15803d;
+  --priority-p3-bg: #bbf7d0;
+
+  /* ===== AI ===== */
+
+  --ai-panel-bg: #f3f7ff;
+  --ai-panel-border: #d6e4ff;
+
+  /* ===== DEBUG ===== */
+
+  --debug-bg: #111827;
+  --debug-text: #e5e7eb;
+
+  /* ===== SHADOWS ===== */
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.1);
+
+  --shadow-main: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

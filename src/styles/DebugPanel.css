@@ -1,0 +1,74 @@
+.debug-panel {
+  /* max-height: 30vh; */
+  /* overflow-y: auto; */
+  padding-right: 1em;
+
+  flex: 1;
+
+  .status-row {
+    display: flex;
+    .status-badge {
+    }
+    font-size: 0.5em;
+    .retry-button-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1em;
+      .time-taken {
+        display: flex;
+        align-items: center;
+        gap: 0.2em;
+      }
+      .retry {
+        border-radius: 1em;
+      }
+    }
+  }
+  .validation-error-row {
+    /* padding: 1em 0; */
+    display: flex;
+    flex-direction: column;
+    .validation-error-detail {
+      /* margin: 0.5em 1em; */
+      padding: 0.5em 1em;
+      background-color: rgba(255, 0, 0, 0.19);
+      color: rgb(169, 39, 39);
+      border-radius: 8px;
+      ol {
+        padding-left: 14px;
+      }
+    }
+  }
+  .raw-response-row {
+    /* padding: 1em 0; */
+    display: flex;
+    flex-direction: column;
+    .raw-response-container {
+      letter-spacing: 0.5px;
+      max-height: 60vh;
+      padding: 2em;
+      background-color: rgba(0, 0, 0, 0.926);
+      border-radius: 0.3em;
+      overflow-x: auto;
+      color: rgb(248, 246, 246);
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+  }
+  .network-error-row {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .network-error-details-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+    }
+    .retry-button {
+      display: flex;
+      justify-content: end;
+    }
+  }
+}

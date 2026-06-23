@@ -1,0 +1,70 @@
+.ai-assist-panel {
+  background-color: white;
+  /* max-height: 30vh; */
+  /* overflow-y: auto; */
+  padding-right: 1em;
+
+  /* display: flex; */
+  flex: 1;
+
+  .regenerate-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .confidence-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      .category-badge {
+        padding-left: 2px;
+      }
+    }
+    .regenerate-button {
+      display: flex;
+      justify-content: flex-end;
+      button {
+        border: 1px solid rgb(0, 0, 0, 0.1);
+        border-radius: 1em;
+      }
+    }
+  }
+  .summary-row {
+    display: flex;
+    flex-direction: column;
+    ul {
+      padding-left: 1em;
+    }
+  }
+  .suggested-action-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .draft-reply-row {
+    .draft-reply-label {
+      width: 100%;
+      padding-bottom: 0.5em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .stop-button {
+        border-radius: 2em;
+        background-color: rgba(210, 12, 12, 0.696);
+        margin-right: 10px;
+      }
+    }
+    .draft-reply-box {
+      font-size: var(--fs-xs);
+      overflow-y: hidden;
+      margin-bottom: 2px;
+      background-color: aliceblue;
+    }
+  }
+}
+.network-error {
+  /* padding: 1em; */
+  display: flex;
+  justify-content: center;
+  .retry-button {
+    width: 10em;
+  }
+}

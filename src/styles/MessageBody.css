@@ -1,0 +1,54 @@
+.message-body {
+  /* flex: 1; */
+  /* overflow-y: auto; */
+
+  /* height: 50vh; */
+  /* min-height: 0; */
+  /* flex: 1; */
+  /* flex-shrink: 0; */
+  /* border: 2px solid green; */
+
+  /* .message-header {
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    .message-subject {
+      .subject {
+      }
+      .sender-name {
+        display: flex;
+        gap: 8px;
+      }
+      .sender-email {
+        display: flex;
+        gap: 8px;
+      }
+    }
+    .message-tags {
+    }
+  } */
+
+  .message-content {
+    align-self: flex-start;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 1em 2em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+    box-shadow: var(--shadow-main);
+    white-space: pre-wrap;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    /* box-shadow:
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    /* border: 1px solid blue; */
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    /* background-color: white; */
+    /* height: 40vh; */
+
+    /* flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+    padding: 14px 18px;
+    white-space: pre-wrap; */
+  }
+}

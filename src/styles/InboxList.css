@@ -1,0 +1,7 @@
+.inbox-list {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 3.7em);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 2px;
+}

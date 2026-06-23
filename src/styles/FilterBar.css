@@ -1,0 +1,33 @@
+.filter-bar {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* background-color: rgb(241, 241, 241); */
+  .selected-row {
+    /* padding-top: 1em; */
+    .select-checkbox {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .mark-done-button {
+      display: flex;
+      justify-content: flex-end;
+      button {
+        /* border: 0.1px solid rgb(0, 0, 0, 0.1); */
+      }
+    }
+  }
+
+  .filter-input {
+    border-radius: 2em;
+  }
+  .status-priority {
+    padding: 4px 0;
+    .priority-select,
+    .status-select {
+      width: 100%;
+      border-radius: 1em;
+      padding: 0.2em 0.5em;
+    }
+  }
+}
