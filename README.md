@@ -134,6 +134,8 @@ Lighthouse scores (desktop):
 
 _See `/docs/screenshots/Lighthouse Screenshot.png/` for screenshot._
 
+<img width="1915" height="952" alt="Lighthouse Screenshot" src="https://github.com/user-attachments/assets/65e434b9-2dbb-4701-ab12-a9a0a63bd6ab" />
+
 _See `/docs/Lighthouse Summary.pdf/` for the summary._
 
 **What was optimised:**
