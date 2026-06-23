@@ -160,4 +160,4 @@ _See `/docs/Lighthouse Summary.pdf/` for the summary._
 
 ## Total time spent
 
-**~22 hours** — see `TIMELOG.md` for full breakdown.
+**~23 hours** — see `TIMELOG.md` for full breakdown.
